@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Winter Collection</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="logo">AJ Winter Collection</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <h1>Welcome to the Winter Collection</h1>
+        <p>Stay warm and stylish this winter!</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="76201_990-2-main3.webp" alt="Winter Jacket">
+                <h3>Winter Jacket</h3>
+                <p>$99.99</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="51bVX1CwHgL.webp" alt="Wool Scarf">
+                <h3>Wool Scarf</h3>
+                <p>$29.99</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="636acab5a6a683665c15f759-jsgek-sales-men-puffer-jacket-with-hood.jpg" alt="Hoodie">
+                <h3>Hoodie</h3>
+                <p>$30</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="651b06e4f26c6f46e90431b9-lyxssbyx-winter-jackets-for-men.jpg" alt="Hoodie jacket">
+                <h3>Hoodie jacket</h3>
+                <p>$27.99</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="p2594845.avif" alt="Water proof jacket">
+                <h3>Water proof jacket</h3>
+                <p>$31</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="17.webp" alt="cardigan">
+                <h3>cardigan</h3>
+                <p>$25</p>
+                <button class="btn">Add to Cart</button>
+            </div> <div class="product-card">
+                <img src="71GHCyo32dL._AC_UY350_.jpg" alt="Winter inner">
+                <h3>Winter inner</h3>
+                <p>$21</p>
+                <button class="btn">Add to Cart</button>
+            </div> <div class="product-card">
+                <img src="mens-winter-sweater.jpg" alt="Winter sweater">
+                <h3>Winter sweater</h3>
+                <p>$27</p>
+                <button class="btn">Add to Cart</button>
+            </div> <div class="product-card">
+                <img src="1464257940_1475758029_caffb61667e4a.jpg" alt="bomber">
+                <h3>bomber</h3>
+                <p>$28.99</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="81zlIpxU8wL.webp" alt="Winter Boots">
+                <h3>Winter Boots</h3>
+                <p>$79.99</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are dedicated to bringing you the best winter apparel to keep you cozy and stylish all season long.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 AJ Winter Collection. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript Functionality
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Item added to cart!');
+            });
+        });
+    </script>
+</body>
+</html>

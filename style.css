@@ -1,0 +1,86 @@
+<style>
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6ea2d5;
+    color: rgb(50, 16, 16);
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(13, 9, 9);
+    font-weight: bold;
+}
+
+.home-section {
+    text-align: center;
+    padding: 70px;
+    background: url(winter_jacket_for_men..webp) no-repeat center center/cover;
+    color: rgb(18, 18, 18);
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.products-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-section, .contact-section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(169, 94, 134);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7b5470;
+    color: white;
+}
+</style>
